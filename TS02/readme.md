@@ -39,28 +39,28 @@ node_modules/
  ```javaScript
 *.a
 ```
-1. 但跟踪所有的lib.a, 即便你在前面忽略了.a文件
+2. 但跟踪所有的lib.a, 即便你在前面忽略了.a文件
 
  ```javaScript
 ! lib.a
 ```
-1. 只忽略当前目录下的TODO 文件，而不忽略subdir/T0DO
+3. 只忽略当前目录下的TODO 文件，而不忽略subdir/T0DO
 
 ```
 /TODO
 ```
-1. 忽略任何目录下名为build的文件夹
+4. 忽略任何目录下名为build的文件夹
 
 ```
 build/
 ```
-1. 忽略doc/notes. txt,但不忽略doc/server/arch. txt
+5. 忽略doc/notes. txt,但不忽略doc/server/arch. txt
 
 ```
 doc/*. txt
 ```
 
-1. 忽略doc/目录及其所有子目录下的.pdf 文件
+6. 忽略doc/目录及其所有子目录下的.pdf 文件
 
 ```
 doc/**/* . pdf
